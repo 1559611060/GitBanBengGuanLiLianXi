@@ -11,5 +11,9 @@ namespace GitBanBengGuanLiLianXi.Controllers
         public test() {
             _jd = DateTime.Now.ToString("yyyy-MM-dd HH:ss");
         }
+        public string GetTime() {
+
+            return $"当前时间{_jd}";
+        }
     }
 }
