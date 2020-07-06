@@ -8,6 +8,9 @@ namespace GitBanBengGuanLiLianXi.Controllers
     public class test
     {
         private string _jd = string.Empty;
+        private string _new1 = string.Empty;
+
+
         public test() {
             _jd = DateTime.Now.ToString("yyyy-MM-dd HH:ss");
         }
